@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechWeb Soluções Digitais</title>
+    
+    <meta name="description" content="Empresa especializada em desenvolvimento web, sistemas e consultoria em TI.">
+    <meta name="keywords" content="web, tecnologia, desenvolvimento, sistemas, techweb, sites">
+
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: auto; padding: 20px; }
+        header { background: #004a99; color: white; padding: 20px; text-align: center; border-radius: 8px; }
+        nav { margin: 15px 0; text-align: center; }
+        nav a { margin: 0 10px; text-decoration: none; color: #004a99; font-weight: bold; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        table, th, td { border: 1px solid #ccc; }
+        th, td { padding: 10px; text-align: left; }
+        th { background-color: #f4f4f4; }
+        form { background: #f9f9f9; padding: 20px; border-radius: 8px; }
+        input, textarea { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px; }
+        button { background: #28a745; color: white; border: none; padding: 10px 20px; cursor: pointer; border-radius: 4px; }
+        button:hover { background: #218838; }
+        footer { text-align: center; margin-top: 40px; font-size: 0.9em; color: #777; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>TechWeb Soluções Digitais</h1>
+        <p>"Soluções modernas para empresas."</p>
+    </header>
+
+    <nav>
+        <a href="#servicos">Serviços</a> | 
+        <a href="#planos">Planos</a> | 
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <main>
+        <section id="servicos">
+            <h2>Nossos Serviços</h2>
+            <ul>
+                <li>Desenvolvimento de Sites</li>
+                <li>Criação de Sistemas Web</li>
+                <li>Consultoria em TI</li>
+                <li>Hospedagem de Sites</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="planos">
+            <h2>Planos de Serviço</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Plano</th>
+                        <th>Suporte</th>
+                        <th>Preço</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Básico</td>
+                        <td>Email</td>
+                        <td>R$ 50</td>
+                    </tr>
+                    <tr>
+                        <td>Profissional</td>
+                        <td>24h</td>
+                        <td>R$ 120</td>
+                    </tr>
+                    <tr>
+                        <td>Empresarial</td>
+                        <td>Prioritário</td>
+                        <td>R$ 300</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <form action="#">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" placeholder="Como podemos ajudar?"></textarea>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 TechWeb – Todos os direitos reservados</p>
+    </footer>
+
+</body>
+</html>
